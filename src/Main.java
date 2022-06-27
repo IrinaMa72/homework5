@@ -22,59 +22,75 @@ public class Main {
 
 //        2 задача
         for (int i = 0; i < firstArr.length; i++) {
-            if (i >= firstArr.length - 1)
+            if (i == firstArr.length - 1) {
                 System.out.print(firstArr[i]);
-            else
+            } else {
                 System.out.print(firstArr[i] + ", ");
+            }
         }
-        {
-            System.out.println();
-        }
-        for (int i = 0; i < secondArr.length; i++) {
-            if (i >= secondArr.length - 1)
-                System.out.print(secondArr[i]);
-            else
-                System.out.print(secondArr[i] + ", ");
-        }{
-            System.out.println();
-        }
-        for (int i = 0; i < seasons.length; i++) {
-            if (i >= seasons.length-1)
-                System.out.print(seasons[i]);
-            else
-                System.out.print(seasons[i] + ", ");
-        }
-        {
-            System.out.println();
-        }
-        //        3 задача
-        for (int i = firstArr.length-1; i >= 0; i--) {
-            if (i <= 0)
+            {
+                System.out.println();
+            }
+            for (int i = 0; i < secondArr.length; i++){
+                if (i >= secondArr.length - 1) {
+                    System.out.print(secondArr[i]);
+                } else {
+                    System.out.print(secondArr[i] + ", ");
+                }}
+            {
+                System.out.println();
+            }
+            for (int i = 0; i < seasons.length; i++){
+                if (i >= seasons.length - 1) {
+                    System.out.print(seasons[i]);
+                } else {
+                    System.out.print(seasons[i] + ", ");
+                }
+            {
+                System.out.println();
+            }}
+            //        3 задача
+            for (int i = firstArr.length - 1; i >= 0; i--){
+                if (i <= 0) {
+                    System.out.print(firstArr[i]);
+                } else {
+                    System.out.print(firstArr[i] + ", ");
+                }
+            {
+                System.out.println();
+            }}
+
+            for (int i = secondArr.length - 1; i >= 0; i--){
+                if (i <= 0) {
+                    System.out.print(secondArr[i]);
+                } else {
+                    System.out.print(secondArr[i] + ", ");
+                }}
+            {
+                System.out.println();
+            }
+            for (int i = seasons.length - 1; i >= 0; i--){
+                if (i <= 0) {
+                    System.out.print(seasons[i]);
+                } else {
+                    System.out.print(seasons[i] + ", ");
+                }
+                {
+                    System.out.println();
+                }
+                }
+//                  4 задача
+        for (int i =0; i<firstArr.length; i++){
+            if (firstArr[i]%2==1)
+            firstArr[i] ++;
+
+            if (i<firstArr.length-1) {
+                System.out.print(firstArr[i] + ", ");
+            }
+              else {
                 System.out.print(firstArr[i]);
-            else
-                System.out.print(firstArr[i] + ", ");
+            }
+                }
+
         }
-        {
-            System.out.println();
-        }
-
-        for (int i = secondArr.length-1; i >= 0; i--) {
-            if (i <= 0)
-                System.out.print(secondArr[i]);
-            else
-                System.out.print(secondArr[i] + ", ");
-        }{
-            System.out.println();
-        }
-        for (int i = seasons.length-1; i >= 0; i--) {
-            if (i <= 0)
-                System.out.print(seasons[i]);
-            else
-                System.out.print(seasons[i] + ", ");
-        }
-
-
-
-
     }
-}
